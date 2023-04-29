@@ -5,6 +5,7 @@ const form = document.getElementById('input-form');
 const containerWord = document.querySelector('.reluts-word')
 const soundButtonGB = document.querySelector('.uk-lang')
 const soundButtonUS = document.querySelector('.us-lang')
+const resultDefinition = document.querySelector('.result-item-definition')
 
 let state = {
     word:''
@@ -19,6 +20,7 @@ const handleSubmit = async (e) =>{
     const response = await fetch(`${url}${state.word}`)
     const data = await response.json()
     console.log(data)
+    
 }
 
 const handleKeyup=(e) =>{
