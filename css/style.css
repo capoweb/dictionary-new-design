@@ -38,7 +38,7 @@ body{
     bottom: 200px;
     background: linear-gradient(0deg, transparent, #faa1e9,#ff4a89);              
     transform-origin: bottom right;
-    /* animation: animate linear 6s infinite; */
+    animation: animate linear 6s infinite;
 }
 .content::after{
     position: absolute;
@@ -49,7 +49,7 @@ body{
     bottom: 200px;
     background: linear-gradient(0deg, transparent, #41d7e1,#37b0b9);              
     transform-origin: bottom right;
-    /* animation: animate linear 6s infinite; */
+    animation: animate linear 6s infinite;
     animation-delay: -3s;
 }
 @keyframes animate {
